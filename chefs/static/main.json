@@ -1,0 +1,11 @@
+// let menu = document.querySelector('#menu-icon');
+// let navbar = document.querySelector('.navbar'); // Corrected selector for navbar
+
+menu.onclick = () => {
+    menu.classList.toggle('bx-x');
+    navbar.classList.toggle('active'); // Added class toggle for the navbar
+}
+menu.onscroll = () => {
+    menu.classList.toggle('bx-x');
+    navbar.classList.toggle('active'); // Added class toggle for the navbar
+}
